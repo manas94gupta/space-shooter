@@ -69,7 +69,7 @@ export const useGameLogic = (context: Ref<CanvasRenderingContext2D | null>, canv
 
     bullets.value.forEach((bullet, index) => {
       updateBulletPosition(bullet);
-      drawBullet(context.value, bullet);
+      drawBullet(context.value!, bullet);
       if (bullet.y < 0) {
         bullets.value.splice(index, 1);
       }
@@ -77,7 +77,7 @@ export const useGameLogic = (context: Ref<CanvasRenderingContext2D | null>, canv
 
     enemies.value.forEach((enemy, index) => {
       updateEnemyPosition(enemy);
-      drawEnemy(context.value, enemy);
+      drawEnemy(context.value!, enemy);
 
       if (enemy.y > canvasHeight) {
         lives.value--;
