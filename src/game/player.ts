@@ -12,7 +12,7 @@ export interface Player {
 
 export const createPlayer = (canvasWidth: number, canvasHeight: number): Player => {
   const img = new Image();
-  img.src = '/src/assets/images/player.png';
+  img.src = '/assets/images/player.png';
   return {
     x: canvasWidth / 2 - 20,
     y: canvasHeight - 50 ,

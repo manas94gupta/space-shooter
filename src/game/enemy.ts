@@ -1,4 +1,4 @@
-const enemyImages = ['/src/assets/images/enemies/gorgias.png', '/src/assets/images/enemies/shopify.png', '/src/assets/images/enemies/zendesk.png', '/src/assets/images/enemies/kustomer.png'];
+const enemyImages = ['/assets/images/enemies/gorgias.png', '/assets/images/enemies/shopify.png', '/assets/images/enemies/zendesk.png', '/assets/images/enemies/kustomer.png'];
 
 export interface Enemy {
   x: number;
