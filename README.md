@@ -1,15 +1,35 @@
 # Space Shooter
 
-This template should help get you started developing with Vue 3 in Vite.
+A space shooter game built using Vue 3 where the player controls a spaceship to shoot at incoming enemies.
 
-## Project Setup
+## How to setup and run locally
 
-```sh
+- Clone the git repository
+- Install dependencies
+
+```bash
+npm install
+# or
+yarn install
+# or
 pnpm install
 ```
 
-### Compile and Hot-Reload for Development
+- Start the development server
 
-```sh
+```bash
+npm run dev
+# or
+yarn dev
+# or
 pnpm dev
 ```
+
+Open [http://localhost:5173/cards](http://localhost:5173/cards) on your browser to see the app.
+
+## Available Scripts
+
+- `build` - Builds the app for production
+- `lint` - Runs the linter
+- `format` - Runs prettier formatting
+- `type-check` - Runs typescript type checking
