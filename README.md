@@ -2,6 +2,8 @@
 
 A space shooter game built using Vue 3 where the player controls a spaceship to shoot at incoming enemies.
 
+Live Demo: [https://space-shooter-manas94guptas-projects.vercel.app/](https://space-shooter-manas94guptas-projects.vercel.app/)
+
 ## How to setup and run locally
 
 - Clone the git repository
