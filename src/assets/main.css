@@ -1,5 +1,11 @@
 @import './base.css';
 
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
 #app {
   max-width: 1280px;
   margin: 0 auto;

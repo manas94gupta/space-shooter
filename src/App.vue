@@ -1,11 +1,18 @@
-<script setup lang="ts"></script>
-
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.png" width="40" height="40" />
-  </header>
-
-  <main>Space Shooter Game</main>
+  <div id="app">
+    <GameCanvas />
+  </div>
 </template>
+
+<script lang="ts">
+import { defineComponent } from 'vue'
+import GameCanvas from './components/GameCanvas.vue'
+
+export default defineComponent({
+  components: {
+    GameCanvas,
+  },
+})
+</script>
 
 <style scoped></style>
